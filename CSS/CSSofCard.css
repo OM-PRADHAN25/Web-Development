@@ -1,0 +1,50 @@
+.box{
+    background-color: white;
+    width: 700px;
+    height: 590px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    padding:30px;
+    margin: 50px;
+}
+img{
+    width: 625px;
+    height: 300px;
+    border-radius: 15px;
+}
+pre{
+    margin: 0;
+    padding: 0;
+    font-weight:900;
+    font-size: 25px;
+    text-align:left;
+   #A{
+     margin-bottom:0px;
+    }
+   #B{
+    margin-top:-30px;
+    } 
+}
+hr{
+    margin-top: -40px;
+    color: black;
+}
+
+body{
+    background-color: black;
+}
+span{
+    font-weight: bolder;
+    color: blue;
+    font-size: 30px;
+    padding-right: 20px;
+}
+#C{
+    color:gray;
+    text-decoration: line-through;
+}
+#D{
+    background-color: aqua;
+    color: white;
+    border-radius: 5px;
+}
