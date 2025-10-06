@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            margin: 1px;
+            border: 2px solid black;
+            padding: 1px;
+            display: flex;
+            
+        }
+        img{
+            width: 150px;
+            height: 100px;
+        }
+       @media(max-width:640px){
+        .container{
+            flex-direction: column;
+        }
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <p>This is para 1</p>
+            <p>This is para 2</p>
+        </div>
+        <div id="img">
+            <img src="https://wallpapers.com/images/featured-full/shah-rukh-khan-pictures-zq0l4snt3dq7vwnz.jpg"/>
+        </div>
+    </div>
+</body>
+</html>

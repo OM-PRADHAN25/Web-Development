@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            border: 5px solid black;
+            background: beige;
+            width: 100vw;
+            height: 100vh;
+        }
+        .box{
+            border: 2px solid red;
+            background: blue;
+            width: 100px;
+            height: 20px;
+            border-radius: 3px;
+            margin: 10px;
+            position: relative;
+            animation-name:Movement;
+            animation-duration: 5s;
+            animation-iteration-count: 1;
+            animation-delay: 2s;
+            animation-direction: alternate;
+            animation-fill-mode: forwards;
+        }
+        .box1{
+            border: 2px solid red;
+            background: blue;
+            width: 100px;
+            height: 20px;
+            border-radius: 3px;
+            margin: 10px;
+            position: relative;
+            animation-name:Movement;
+            animation-duration: 5s;
+            animation-iteration-count: 1;
+            animation-delay: 2s;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+            animation-fill-mode: backwards;
+        }
+        .box2{
+            border: 2px solid red;
+            background: blue;
+            width: 100px;
+            height: 20px;
+            border-radius: 3px;
+            margin: 10px;
+            position: relative;
+            animation-name:Movement;
+            animation-duration: 5s;
+            animation-iteration-count: 1;
+            animation-delay: 2s;
+            animation-timing-function: ease-in;
+            animation-direction: reverse;
+            animation-fill-mode: both;
+        }
+        .box3{
+            border: 2px solid red;
+            background: blue;
+            width: 100px;
+            height: 20px;
+            border-radius: 3px;
+            margin: 10px;
+            position: relative;
+            animation-name:Movement;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            animation-timing-function: ease-out;
+            animation-direction: alternate;
+        }
+        .box4{
+            border: 2px solid red;
+            background: blue;
+            width: 100px;
+            height: 20px;
+            border-radius: 3px;
+            margin: 10px;
+            position: relative;
+            animation-name:Movement;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate;
+        }
+        .box5{
+            border: 2px solid red;
+            background: blue;
+            width: 100px;
+            height: 20px;
+            border-radius: 3px;
+            margin: 10px;
+            position: relative;
+            animation-name:Movement;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+            animation-direction: alternate;
+        }
+        .box6{
+            border: 2px solid red;
+            background: blue;
+            width: 100px;
+            height: 20px;
+            border-radius: 3px;
+            margin: 10px;
+            position: relative;
+            animation:5s linear 2s infinite alternate none running Movement2;
+        }
+        @keyframes Movement{
+            from{
+                top: 0;
+                left: 0;
+            }
+            to{
+                top: 0;
+                left: 500px;
+            }
+        }
+        @keyframes Movement2 {
+            from{
+                top: 70px;
+                left: 500px;
+            }
+            to{
+                top: 70px;
+                left: 0;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+        <div class="box6"></div>
+    </div>
+</body>
+</html>

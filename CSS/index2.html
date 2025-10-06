@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color: brown;
+            --custom-width:900px;
+        }
+        .container{
+            margin: 2px;
+            border:5px solid black;
+            padding: 2px;
+            width: var(--custom-width);
+            height:600px;
+            background:burlywood;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            width: 300px;
+            height:300px;
+            background-color: aquamarine;
+            margin: 2px;
+            border: 3px solid var(--primary-color);
+            padding: 3px;
+            /* box-shadow: 10px 10px red; */
+            /* box-shadow: 10px 10px 5px red; */
+            /* box-shadow: 10px 10px 5px 10px red; */
+            /* box-shadow: 10px 10px 5px 10px rgb(87,54,45); */
+            /* box-shadow: 10px 10px 5px 10px rgb(87,54,45,0.5); */
+            /* box-shadow: inset 10px 10px red; */
+            box-shadow: 10px 10px red , 20px 20px var(--primary-color);
+        }
+        p{
+            color:red;
+        }
+        #h{
+            /* text-shadow: 12px 13px; */
+            /* text-shadow: 12px 13px 1px beige; */
+            /* text-shadow: yellow 12px 13px 1px; */
+            /* text-shadow: 12px 13px white; */
+            text-shadow: 12px 13px 1px blue,22px 23px 1px red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+        <h1 id="h">OM PRADHAN</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellendus molestias ex praesentium aliquam consequuntur obcaecati nihil delectus quibusdam eius laudantium a labore officia doloribus facere beatae mollitia voluptas optio maiores odit, alias ipsa vel odio quod. Explicabo voluptates id, nam ex animi suscipit atque laboriosam quidem aperiam sit deleniti.</p>
+        </div>
+    </div>
+</body>
+</html>
