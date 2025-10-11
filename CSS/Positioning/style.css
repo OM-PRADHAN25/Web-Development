@@ -1,0 +1,19 @@
+#A{
+   position: relative;
+   top: 390px;
+}
+#B{
+   position: relative;
+   left: 800px;
+   bottom: 65px;
+}
+#C{
+   position: relative;
+   top: 320px;
+   left: 800px;
+}
+#D{
+    position: relative;
+    top: 60px;
+    left: 400px;
+}
